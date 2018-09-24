@@ -1,0 +1,92 @@
+"# Do not modify key_start row, header row (below key_start) and key_end row",,,,,
+,,,,,
+# Login information,,,,,
+key_start,nuage_login,,,,
+nuage_username,nuage_password,nuage_enterprise,nuage_host,nuage_port,
+csproot,csproot,csp,192.168.137.138,8443,
+key_end,,,,,
+,,,,,
+# Organization,,,,,
+key_start,nuage_org,,,,
+org_name,,,,,
+A02TCBIS,,,,,
+key_end,,,,,
+,,,,,
+# Gateway template data - required for create_gateway_template (option -G),,,,,
+key_start,gateway_template_data,,,,
+gateway_template_name,gateway_personality,,,,
+WBX 210 32Q Compute Rack,NUAGE_210_WBX_32_Q,,,,
+WBX 210 32Q Storage Rack,NUAGE_210_WBX_32_Q,,,,
+key_end,,,,,
+,,,,,
+# Required for create_gateway_template (option -G),,,,,
+key_start,port_template_data,,,,
+gateway_template_name,port_name,port_description,port_type,vlan_range,vlan_list
+WBX 210 32Q Compute Rack, 1/1/17,Compute Node 10,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/18,Compute Node 10,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/19,Compute Node 11,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/20,Compute Node 11,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/21,NCI Controller Node 1,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/22,NCI Controller Node 1,ACCESS,"0,10-4094","0,512,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/23,NCI Controller Node 2,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/24,NCI Controller Node 2,ACCESS,"0,10-4094","0,512,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/25,Compute Node 12,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/26,Compute Node 12,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/27,Compute Node 13,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/28,Compute Node 13,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/29,NCI Controller Node 3,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/30,NCI Controller Node 3,ACCESS,"0,10-4094","0,512,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/31,NCI Infra Management Server,ACCESS,"0,10-4094",
+WBX 210 32Q Compute Rack, 1/1/32,NCI Infra Management Server,ACCESS,"0,10-4094","0,512"
+WBX 210 32Q Compute Rack, 1/1/33,Compute Node 14,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/34,Compute Node 14,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/35,Compute Node 15,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/36,Compute Node 15,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/55,Compute Node 1,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/56,Compute Node 1,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/61,Compute Node 2,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/62,Compute Node 2,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/1/63,Compute Node 3,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/1/64,Compute Node 3,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/2/5,Compute Node 4,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/2/6,Compute Node 4,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/2/7,Compute Node 5,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/2/8,Compute Node 5,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/2/13,Compute Node 6,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/2/14,Compute Node 6,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/2/15,Compute Node 7,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/2/16,Compute Node 7,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/2/21,Compute Node 8,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/2/22,Compute Node 8,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Compute Rack, 1/2/23,Compute Node 9,ACCESS,"0,10-4094","516,600"
+WBX 210 32Q Compute Rack, 1/2/24,Compute Node 9,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Storage Rack, 1/1/21,Storage Node 1,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Storage Rack, 1/1/22,Storage Node 2,ACCESS,"0,10-4094","0,514,515,517"
+WBX 210 32Q Storage Rack, 1/1/23,Storage Node 3,ACCESS,"0,10-4094","0,514,515,517"
+key_end,,,,,
+,,,,,
+# Required for instantiate_gateway (option -g),,,,,
+key_start,gateway_data,,,,
+gateway_name,gateway_description,gateway_system_id,gateway_template_name,,
+PSI-TES-BL1,PSI TES R2 Border Leaf 1,172.19.144.1,,,
+PSI-TES-BL2,PSI TES R2 Border Leaf 2,172.19.144.2,,,
+PSI-TES-R1-L1,PSI TES R1 Leaf 1,172.19.16.1,WBX 210 32Q Compute Rack,,
+PSI-TES-R1-L2,PSI TES R1 Leaf 2,172.19.16.2,WBX 210 32Q Compute Rack,,
+PSI-TES-R2-L1,PSI TES R2 Leaf 1,172.19.16.3,WBX 210 32Q Storage Rack,,
+PSI-TES-R2-L2,PSI TES R2 Leaf 2,172.19.16.4,WBX 210 32Q Storage Rack,,
+key_end,,,,,
+,,,,,
+# Required for attach_enterprise_permission (option -e),,,,,
+key_start,gateway_list,,,,
+gateway_name,,,,,
+PSI-TES-R1-L1,,,,,
+PSI-TES-R1-L2,,,,,
+PSI-TES-R2-L1,,,,,
+PSI-TES-R2-L2,,,,,
+key_end,,,,,
+,,,,,
+# Required for create_l3domain_template (option -L),,,,,
+key_start,l3domain_template_data,,,,
+l3domain_template_name,,,,,
+CBIS-Infra-L3-Template,,,,,
+key_end,,,,,
